@@ -1,0 +1,18 @@
+#triangle:
+a=''
+b=''
+c=''
+
+#input from the users:
+a=float(input("enter the first side of triangle:"))
+b=float(input("enter the second side of triangle:"))
+c=float(input("enter the third side of triangle:"))
+
+#FORMULA OF THE TRIANGLE:
+s=a+b+c/2
+print(s)
+
+#AREA CALCULATION OF TRIANGLE:
+area=(s*(s-a)*(s-b)*(s-c)) * 0.5
+print(area)
+print('Area of the triangle is',area)
