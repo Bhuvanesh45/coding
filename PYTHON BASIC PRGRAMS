@@ -1,0 +1,9 @@
+#CHECK THE NUMBER IS EVEN OR PRIME:
+
+#INPUT FROM THE USER:
+number=int(input("enter the number:"))
+if number%2==0:
+    print('number is EVEN')
+    pass
+else:
+    print('number is PRIME')
